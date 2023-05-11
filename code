@@ -1,0 +1,8 @@
+import pywhatkit as kit
+import pyautogui as pg
+
+try:
+    kit.sendwhatmsg("+919725499007","happy birthday to you",10,31)
+    pg.press("enter")
+except:
+    print("exception occured")
